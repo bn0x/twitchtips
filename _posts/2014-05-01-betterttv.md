@@ -53,5 +53,29 @@ Download it from the specific link for your browser
 <figure>
  <a href="/images/customization_guide/bttv_custom_settings.png"><img src="/images/customization_guide/bttv_custom_settings.png"></a>
 </figure>
+ ----
+
+## Chroma Keying Chat
  
+<br>For streamers who want to Chroma key the chat onto your screen without a background so it goes over games can follow the next part.
+<br>
+<br>First of all Pop-out the chat so you have it in a second window (The settings gear --> Pop-out Chat --> When the chat pops out do the same again --> Settings Gear --> Chroma Key)
+<br>
+<br>When you have opened it and Clicked on the chroma key setting you chat should look something like this:
+<br>
+<figure>
+<a href="/images/customization_guide/bttv_custom_chromakey.jpg"><img src="/images/customization_guide/bttv_custom_chromakey.jpg"></a>
+</figure>
+<br>
+<br>What you then want to do is capture it in your capture program (OBS, XSplit ETC..)
+<br>
+<br>When you have the window selected and your region selected pick black #000000 To be keyed out.
+<br>
+<br>It should look something like this.
+<br>
+<figure>
+<a href="/images/customization_guide/bttv_custom_ingame.jpg"><img src="/images/customization_guide/bttv_custom_ingame.jpg"></a>
+</figure>
+
 Write up by [Gav](http://twitter.com/GavXD), Thanks to [NightDev](http://nightdev.com) for his amazing Add-on!
+[Lirik](http://twitch.tv/lirik) Used as an example for chat screenshots!
