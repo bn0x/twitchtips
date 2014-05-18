@@ -11,7 +11,7 @@ comments: true
 
 <br>(**Note:** If you're not following us on Twitter and you've won, we'll send you a tweet letting you know you've won, you then have 24 hours to follow us back so we can DM you the redeem link for your Kappa Emote Pack - after 24 hours we will randomly select another winner)
 
-<br>So without further due, here are the 5 winners for TwitchTips first giveaway!
+<br>So without further due, here are the 5 winners for TwitchTips first giveaway!<br>
 
 **Written Contributions**
 
