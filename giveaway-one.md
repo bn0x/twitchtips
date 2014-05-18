@@ -21,8 +21,8 @@ comments: true
 
 **Twitter Winners**
 
-* Hoggy2121
-* SmoothColaPepsi
+* [@Hoggy2121](https://www.twitter.com/Hoggy2121)
+* [@SmoothColaPepsi](https://www.twitter.com/SmoothColaPepsi)
 
 Congratulations to those above, we hope to get a response from you soon! If you didn't win this time, don't worry! We have much more planned for the future with hopefully a much more expansive prize pool for those that contribute and participate in events!
 
