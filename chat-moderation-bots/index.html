@@ -1,0 +1,511 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Chat moderation bots &#8211; Twitch Tips</title>
+<meta name="description" content="Connecting to Twitch IRC can be quite the task for those not knowledgeable with IRC client, check out how you can set yourself up connecting to Twitch chats using KVIRC.">
+<meta name="keywords" content="twitch, chat, bots, xanbot, moobot, nightbot">
+<!-- Twitter Cards -->
+	
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:image" content=
+			
+				
+						"http://twitchtips.com/images/"
+				
+			
+		>
+	
+	<meta name="twitter:title" content="Chat moderation bots">
+	<meta name="twitter:description" content="Connecting to Twitch IRC can be quite the task for those not knowledgeable with IRC client, check out how you can set yourself up connecting to Twitch chats using KVIRC.">
+	<meta name="twitter:creator" content="@TwitchTips">
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Chat moderation bots">
+<meta property="og:description" content="Connecting to Twitch IRC can be quite the task for those not knowledgeable with IRC client, check out how you can set yourself up connecting to Twitch chats using KVIRC.">
+<meta property="og:url" content="http://twitchtips.com/chat-moderation-bots/">
+<meta property="og:site_name" content="Twitch Tips">
+
+<!-- Webmaster Tools verfication -->
+<meta name="google-site-verification" content="oV6-uAnZIYjhC89f3QmTc1H38EiCF-vj7TiyV9UsWZs">
+
+
+
+<link rel="canonical" href="http://twitchtips.com/chat-moderation-bots/">
+<link href="http://twitchtips.com/feed.xml" type="application/atom+xml" rel="alternate" title="Twitch Tips Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Webfonts -->
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+<!-- For all browsers -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="http://twitchtips.com/assets/css/main.min.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://twitchtips.com/assets/js/resources/html5shiv.min.js"></script>
+	<script src="http://twitchtips.com/assets/js/resources/respond.min.js"></script>
+<![endif]-->
+
+
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+      <h3 style="border-bottom: none;">
+        <a href="{{url}}">{{title}}</a>
+      </h3>
+  {{/entries}}
+</script>
+
+
+<!-- Modernizr -->
+<script src="http://twitchtips.com/assets/js/resources/modernizr-2.7.1.custom.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.3.3/lunr.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/URI.js/1.11.2/URI.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.0/fastclick.min.js"></script>
+<script src="http://twitchtips.com/assets/js/search.js"></script>
+
+
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl: '/search.json',             // URL of the `search.json` index data for your site
+      results:  '#search-results',          // jQuery selector for the search results container
+      entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
+      template: '#search-results-template'  // jQuery selector for the Mustache.js template
+    });
+  });
+</script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://twitchtips.com/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://twitchtips.com/favicon.png">
+</head>
+
+<body class="post">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://twitchtips.com">Twitch Tips</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+				<li><a href="http://twitchtips.com/get-started/" >Get Started</a></li>
+		        
+				<li><a href="http://twitchtips.com/about/" >About</a></li>
+		        
+				<li><a href="http://twitchtips.com/posts/" >Posts</a></li>
+		        
+				<li><a href="http://twitchtips.com/contribute/" >Contribute</a></li>
+		        
+				<li><a href="http://twitchtips.com/ban-checker/" >Ban Checker</a></li>
+		        
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+	<img src="http://twitchtips.com/images/bio-photo.png" class="bio-photo" alt="Twitch Tips bio photo"></a>
+
+<h3>Twitch Tips</h3>
+<p>An unofficial source for tips, tricks and tutorials for the game streaming platform, Twitch.</p>
+<a href="http://twitter.com/TwitchTips" class="author-social" target="_blank"><i class="icon-twitter"></i> Twitter</a>
+
+
+
+
+
+<a href="http://github.com/TwitchTips" class="author-social" target="_blank"><i class="icon-github"></i> Github</a>
+
+
+
+
+
+
+
+<form  action="http://twitchtips.com/search" method="get" style="float: left">
+	<div class="form-group pull-right">
+    <input type="text" id="search-query" class="form-control" name="q" placeholder="Search" autocomplete="off">
+    
+	</div>
+</form>
+  </div>
+  <article>
+    <div class="headline-wrap">
+      
+<section id="search-results" style="display: none;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <h2>Search Results:</h2>
+          <div class="entries">
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      
+        <h1><a href="http://twitchtips.com/chat-moderation-bots/" rel="bookmark" title="Chat moderation bots">Chat moderation bots</a></h1>
+      
+      <div id="social-share">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://twitchtips.com/chat-moderation-bots/" title="Share on Facebook"><span class="count"><i class="icon-facebook"></i> Like</span></a>
+  <a href="https://twitter.com/intent/tweet?text=http://twitchtips.com/chat-moderation-bots/&via=TwitchTips&hashtags=TwitchTips" title="Share on Twitter"><span class="count"><i class="icon-twitter"></i> Tweet</span></a>
+  <a href="https://plus.google.com/share?url=http://twitchtips.com/chat-moderation-bots/" title="Share on Google Plus"><span class="count"><i class="icon-google-plus"></i> +1</span></a>
+  <a href="http://reddit.com/submit?url=http://twitchtips.com/chat-moderation-bots/" title="Share on Reddit"><span class="count"><i style="font-size: 15pt" class="fa fa-reddit-square"></i> Reddit</span></a>
+</div>
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <h2 id="bots---what-are-they">1. Bots - what are they?</h2>
+<p>While having moderators in chat is nice, they are, in fact, human. <br />
+They make mistakes, have a reaction time that massively exceeds the time a computer takes to react to messages written in chat and occasionally need some sleep.<br />
+<br />
+For this reason, so called “Chat moderation robots” or simply “bots” have been created by third party developers.<br />
+<br />
+These can perform basic moderation tasks, such as timing out users automatically if they use offensive words in chat, as well as custom chat commands, which make the bot respond with information if a command is posted in chat.</p>
+
+<figure>
+    <a href="/images/bot_guide/image1.png"><img src="/images/bot_guide/image1.png" /></a>
+    	<figcaption>Example of a bot, reacting to a custom command.</figcaption>
+</figure>
+
+<h2 id="when-and-why-should-i-get-a-bot">2. When and why should I get a bot?</h2>
+<p>For very small channels, with low amount of viewers, a bot is not necessary. <br />
+Having a bot in a channel that is live once a week and averages 3 viewers just wastes resources on the bot- and chat servers.<br />
+<br />
+If you do not have a lot of viewers, you will probably not be in the need of a bot – consider expanding your viewership and getting a bot when it becomes a necessity, for example, if spammers keep posing a problem, or people keep asking the same questions over and over, that is a definite sign you want a bot.<br />
+<br />
+Be careful with repeated commands however, if you are in a channel with 5 viewers and a bot keeps posting social media info every 2 minutes, that just gets obnoxious as time passes on.</p>
+
+<h2 id="what-bots-are-there-which-should-i-choose">3. What bots are there? Which should I choose?</h2>
+<p>These questions are important to answer, yet impossible to answer completely.<br />
+There is a wide range of bots and reasons why you want a bot.<br />
+<br />
+To address the first question, I will try to give an overview over the 3 most commonly used bots:  </p>
+
+<ul>
+  <li>Xanbot, developed by Aaron ‘Xangold’ Clay, who is Twitch staff as well</li>
+  <li>Moobot, developed by Moocat, a Twitch admin</li>
+  <li>Nightbot, developed by the NightDev team, the makers of BetterTTV</li>
+</ul>
+
+<p>These bots are all similar, yet optimized for different use cases. <br />
+Every channel can use each of the bots, but properly deciding which bot to use can make your life on twitch a lot easier.  </p>
+
+<h3 id="the-basics">The basics</h3>
+<p>While this does not hold true for every bot, most bots (including these three bots) can be controlled with commands that are posted in chat. 
+These commands usually take the form of</p>
+
+<div class="highlight"><pre><code class="html">!<span class="nt">&lt;commandname&gt;</span> <span class="nt">&lt;parameters&gt;</span>
+</code></pre></div>
+
+<p>For any bot, there are predefined commands, which allow you to make changes to commands and other settings the bot might provide. <br />
+<br />
+Additionally, most bots allow for the creation of custom commands, which make the bot post a certain message in chat (see image below) and even have the bot automatically repeat the command to create a repeat the command every so often.<br />
+<br /></p>
+<figure>
+    <a href="/images/bot_guide/image2.png"><img src="/images/bot_guide/image2.png" /></a>
+    	<figcaption>Example of a built-in command to create a custom command.</figcaption>
+</figure>
+
+<p>The exact commands available differ greatly between the bots covered here, which is why I will not go into full detail about them - there are help pages and command lists for all of these bots.<br />
+<br />
+Additionally, some bots even have a graphical interface (“GUI” or “dashboard”) to control the bots.<br />
+It simplifies the process of making changes to the bot without needing to know all the commands and how they work, since commands have to be entered exactly as they should to work properly, “something similar” will not be understood correctly by the bot.</p>
+
+<h3 id="nightbot">Nightbot</h3>
+<p>Nightbot is a bot that specializes in ease of use and fun features, and thus is especially useful for small channels, but there is no limit to the size of channel that can use Nightbot (the second biggest stream on Twitch even uses Nightbot).<br />
+<br />
+It uses a freemium model, providing basic functionality for free and removing limitations if you donate to the NightDev team.<br />
+A full command list is found in the Nightbot dashboard.<br />
+<br />
+<strong>Most prominent features:</strong> </p>
+
+<ul>
+  <li>A dashboard, which allows you to edit settings via <a href="http://nightbot.tv">http://nightbot.tv</a></li>
+  <li>Automated  moderation, consisting of timeouts for spammers and offensive chatters, with a wide range of settings for each type of spam</li>
+  <li>Custom commands, with variables that allow you to put dynamic content to the commands, even trigger external URLs</li>
+  <li>AutoDJ, a feature that allows viewers to suggest songs from YouTube or Soundcloud to be played on stream and automatically plays the songs as a playlist and the ability to display the current song in chat on request, or - with a add-in for OBS and XSplit - display the song name on stream</li>
+  <li>Raffles – These allow you to select a random viewer for giveaways, viewer battles and similar</li>
+  <li>Votes/Polls – Have the viewers decide what game to play next, guess the winner of a game you are spectating or vote on which their favorite food is, or anything else that viewers should decide on </li>
+  <li>The ability to allow other users (for example, some of your chat moderators) to access your dashboard. These people are called “Sub users” and have almost full access to your Nightbot dashboard</li>
+  <li>You can get Nightbot by creating an account at the Nightbot dashboard and clicking the “Join” button after logging in. Make sure to make Nightbot a moderator in your chat with  </li>
+</ul>
+
+<div class="highlight"><pre><code class="html">/mod Nightbot
+</code></pre></div>
+
+<h3 id="moobot">Moobot</h3>
+<p>A bot designed for ease-of-use, with a high-level dashboard from which you can edit all of the bots settings.<br />
+<br />
+One of the biggest benefits is its extreme speed and reliability, built to prevent spam by timing out users fast enough that users dont even get to see bad messages, instead of removing them after a short duration.<br />
+<br />
+It is free to use, but certain features and restrictions require payment.<br />
+<br />
+<strong>Partial list of features:</strong></p>
+
+<ul>
+  <li>A dashboard, comparable to Nightbots dashboard at http://twitch.moobot.tv/ that not just allows you to change the bot, but even allows you to run commands remotely</li>
+  <li>Automated moderation tools, with lots of settings that allow you to customize how the bot reacts to all kinds of spam</li>
+  <li>Custom commands, with the ability to display information about your steam username, current game, League of Legends runes and masteries, XBL gamertags, currently playing song, and much more</li>
+  <li>Raffles, Polls</li>
+  <li>The ability to allow other users (for example, some of your chat moderators) to access your dashboard. These people are called “Editors” within Moobot and have almost full access to your Moobot dashboard</li>
+  <li>Welcome messages to new viewers</li>
+  <li>Features such as changing the bots username in chat, however at a price</li>
+  <li>To get Moobot, connect your twitch account to the Moobot dashboard at http://twitch.moobot.tv/</li>
+  <li>A command list is found in the Moobot dashboard - however, you dont need that! Moobot can be entirely controlled via the dashboard. To use Moobot, you have to type</li>
+</ul>
+
+<div class="highlight"><pre><code class="html">/mod Moobot
+</code></pre></div>
+
+<h3 id="xanbot">Xanbot</h3>
+<p>Out of the 3 bots covered in this article, Xanbot is the only one that does not have a dashboard at the time of this write-down and is completely controlled by chat commands.<br />
+<br />
+However, it excels at moderation thanks to its support for regular expressions, which make it harder to use and therefore, more focused on advanced users, providing them with the most powerful tools to keep spam low.<br />
+<br />
+Xanbot is completely free to use for all users.<br />
+<br />
+<strong>Some of Xanbots features:</strong></p>
+
+<ul>
+  <li>Sophisticated spam removal via the support of regular expressions on top of the basic spam filters that it essentially shares with nightbot and xanbot</li>
+  <li>Custom commands and autoreplies, allowing the bot to react to messages that aren’t In the form of “!command”</li>
+  <li>Raffle, Polls</li>
+  <li>Several utility commands, allowing you to display information on LoL runes, masteries, the weather and much more.</li>
+  <li>You can get Xanbot by going to twitch.tv/xangold and typing !join in chat. Afterwards, add Xanbot as a moderator in your channel with</li>
+</ul>
+
+<div class="highlight"><pre><code class="html">/mod Xanbot
+</code></pre></div>
+
+<p>A complete command list for Xanbot can be found at <a href="twitchtvchat.com/xanbotinfo.html">twitchtvchat.com/xanbotinfo.html</a></p>
+
+<h2 id="which-bot-to-choose">4. Which bot to choose?</h2>
+<p>Now that we have covered the most common bots on twitch, what bot should you use? Does it need to be one of these 3?<br />
+<br />
+Both of these questions cannot be answered definitively. All of these bots are under constant development, improving their stability and feature set. If you have the necessity to add a bot to your stream, you can try them out, or just use whatever bot you know best.<br />
+<br />
+If you are new to bot usage, it is definitely suggested to use nightbot or moobot, which have a lot of similarities in their usage. <br />
+<br />
+If you would enjoy using the AutoDJ feature Nightbot provides, why not try that out? Want a custom username or commands with LoL information, try Moobot!<br />
+<br />
+Want walls over walls of Kappa emotes? Xanbot is the way to go ;)<br />
+<br />
+Nobody can tell you which bot to use in general, it completely depends on what you what the bot to do for you. But all of the bots above are great if used correctly.<br />
+<br />
+Alternatively, there are other bots which have not been handled here, examples would be DeepBot, Ackbot, and custom made bots, often just made for a single channel.<br />
+In a lot of cases, these aren’t provided free of charge however or pose the problem of hosting – they require a server to be run on.</p>
+
+<h2 id="getting-support">5. Getting support</h2>
+<p>Using a bot can be complicated and hard to people who are new to moderation. <br />
+Thankfully, there are a lot of people giving support for the bot you decide to use! In the case of the 3 bots listed above, you can find support for<br />
+<br />
+<strong>Nightbot:</strong> Use the support form on the Nightbot dashboard: <a href="http://nightbot.tv/support">http://nightbot.tv/support</a><br />
+<br />
+<strong>Moobot:</strong> Tweet at <a href="https://twitter.com/TwitchTVMoobot">https://twitter.com/TwitchTVMoobot</a> or ask in <a href="http://www.twitch.tv/moobot">http://www.twitch.tv/moobot</a>, I sometimes read that chat<br />
+<br />
+<strong>Xanbot:</strong> Tweet at <a href="https://twitter.com/xangold">https://twitter.com/xangold</a>, <a href="https://twitter.com/xanbotupdates">https://twitter.com/xanbotupdates</a> or just ask in <a href="http://www.twitch.tv/xangold">http://www.twitch.tv/xangold</a>, I usually stick around.  </p>
+
+<p><br />
+However, keep in mind: We are all volunteers and may not have time to help at all points in time. Rule no.1 about getting support is patience. Leaving a support channel after a minute will most likely not give you an answer.<br />
+<br />
+I myself give a lot of support for the bots I know well, mainly Xanbot and Moobot. Feel free to PM me on twitch if you have specific questions!  </p>
+
+<h2 id="the-dos-and-donts">6. The DOs and DONTs</h2>
+<figure>
+    <a href="/images/bot_guide/image3.png"><img src="/images/bot_guide/image3.png" /></a>
+    	<figcaption>Example of a poorly configured bot.</figcaption>
+</figure>
+
+<p>While the image above might be slightly overdone, it is a common thing that I regularly see in alot of streams - people overuse a bots features, in a way that makes chat dominated by a bot.<br />
+<br />
+This is one of the key reasons why it is recommended not to use a bot for small channel.<br />
+A good rule you can apply to autoreplies and similar: if more than one autimatically repeated bot message is visible at a single point in time, you are overdoing it.</p>
+
+<h4 id="do">DO:</h4>
+<p><strong>Keep spam by the bot low.</strong><br />
+<br />
+Have it post social media info if you feel like it, but do not overdo it.<br />
+<br />
+<strong>Create custom commands!</strong><br />
+<br />
+If a certain question gets asked very frequently, just make a command that provides the answer.<br />
+<br />
+<strong>Get support!</strong><br />
+<br />
+If you are unsure or new to bots and need help setting one up, there is always people with more experience than you who can help you out. (See part 5)</p>
+
+<h4 id="dont">DONT:</h4>
+<p><strong>Make your chat dominated by a bot (or several bots).</strong><br />
+<br />
+People coming your channel want to interact with you, not some computer program.<br />
+<br />
+<strong>Rely on the bot for moderation.</strong><br />
+<br />
+As soon as your stream gets going, make sure to (at least almost) always have moderators in your channel.<br />
+<br />
+While well-tweaked bot settings can essentially automatically moderate chat as well as you might like, there is always things that might not be caught.<br />
+<br />
+Certain situations might require someone to adjust bot settings. For most bots, these settings can be changed by moderators, which makes having a moderator available very important at times.<br />
+<br />
+<strong>Have too restrictive settings on the bot.</strong><br />
+<br />
+Why would a channel with 20 viewers have every person who posts a link timed out?<br />
+If there ever is a wave of spambots going on, the bot settings can be easily changed.<br />
+<br />
+<strong>Make all commands mod-only, unless you are a huge channel.</strong><br />
+<br />
+Why?<br />
+<br />
+If you have a command that displays important information and someone asks for that info, a commonly seen thing is that channel regulars will ask the moderators to post the command!<br />
+<br />
+In what way would that be less annoying than giving them the ability to post the command themselves? A good solution to conquer bot spam in large channels is to make commands subscriber only.  </p>
+
+<hr />
+
+<p>This article was written by CBenni.<br />
+<br /><strong>You can find CBenni on:</strong></p>
+
+<ul>
+  <li><a href="https://www.twitter.com/CBenni_o">Twitter</a></li>
+  <li><a href="http://www.twitch.tv/Cbenni">Twitch</a></li>
+</ul>
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          
+	<img src="http://twitchtips.com/images/bio-photo.png" class="bio-photo" alt="Twitch Tips bio photo"></a>
+
+<h3>Twitch Tips</h3>
+<p>An unofficial source for tips, tricks and tutorials for the game streaming platform, Twitch.</p>
+<a href="http://twitter.com/TwitchTips" class="author-social" target="_blank"><i class="icon-twitter"></i> Twitter</a>
+
+
+
+
+
+<a href="http://github.com/TwitchTips" class="author-social" target="_blank"><i class="icon-github"></i> Github</a>
+
+
+
+
+
+
+
+<form  action="http://twitchtips.com/search" method="get" style="float: left">
+	<div class="form-group pull-right">
+    <input type="text" id="search-query" class="form-control" name="q" placeholder="Search" autocomplete="off">
+    
+	</div>
+</form>
+        </div>
+        <p class="byline"><strong>Chat moderation bots</strong> was published on <time datetime="2014-05-19T00:00:00+01:00">May 19, 2014</time> by <a href="http://twitchtips.com/about" title="About Twitch Tips">Twitch Tips</a>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="http://twitchtips.com/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      
+        <li><a href="http://twitchtips.com/kvirc-guide/" title="KVIRC Setup for Twitch Chat">KVIRC Setup for Twitch Chat</a></li>
+      
+    
+      
+        <li><a href="http://twitchtips.com/poor-advertising/" title="Poor Advertising">Poor Advertising</a></li>
+      
+    
+      
+        <li><a href="http://twitchtips.com/betterttv/" title="The BetterTTV Extension">The BetterTTV Extension</a></li>
+      
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    <span>&copy; 2014 Twitch Tips. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="http://twitchtips.com/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-50140476-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'twitchtips'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	        
+
+</body>
+</html>
