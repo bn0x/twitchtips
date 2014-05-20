@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://twitchtips.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://twitchtips.com" />
-<updated>2014-05-20T18:42:30+01:00</updated>
+<updated>2014-05-20T18:45:40+01:00</updated>
 <id>http://twitchtips.com/</id>
 <author>
   <name>Twitch Tips</name>
@@ -34,7 +34,7 @@ These can perform basic moderation tasks, such as timing out users automatically
 
 &lt;figure&gt;
     &lt;a href=&quot;/images/bot_guide/image1.png&quot;&gt;&lt;img src=&quot;/images/bot_guide/image1.png&quot; /&gt;&lt;/a&gt;
-    	&lt;figcaption&gt;Example of a bot, reacting to a custom command.&lt;/figcaption&gt;
+    	&lt;figcaption&gt;Example of a built-in command to create a custom command.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;when-and-why-should-i-get-a-bot&quot;&gt;2. When and why should I get a bot?&lt;/h2&gt;
@@ -73,7 +73,7 @@ Additionally, most bots allow for the creation of custom commands, which make th
 &lt;br /&gt;&lt;/p&gt;
 &lt;figure&gt;
     &lt;a href=&quot;/images/bot_guide/image2.png&quot;&gt;&lt;img src=&quot;/images/bot_guide/image2.png&quot; /&gt;&lt;/a&gt;
-    	&lt;figcaption&gt;Example of a built-in command to create a custom command.&lt;/figcaption&gt;
+    	&lt;figcaption&gt;Example of a bot, reacting to a custom command.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The exact commands available differ greatly between the bots covered here, which is why I will not go into full detail about them - there are help pages and command lists for all of these bots.&lt;br /&gt;
@@ -96,8 +96,9 @@ A full command list is found in the Nightbot dashboard.&lt;br /&gt;
   &lt;li&gt;Raffles – These allow you to select a random viewer for giveaways, viewer battles and similar&lt;/li&gt;
   &lt;li&gt;Votes/Polls – Have the viewers decide what game to play next, guess the winner of a game you are spectating or vote on which their favorite food is, or anything else that viewers should decide on &lt;/li&gt;
   &lt;li&gt;The ability to allow other users (for example, some of your chat moderators) to access your dashboard. These people are called “Sub users” and have almost full access to your Nightbot dashboard&lt;/li&gt;
-  &lt;li&gt;You can get Nightbot by creating an account at the Nightbot dashboard and clicking the “Join” button after logging in. Make sure to make Nightbot a moderator in your chat with  &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;You can get Nightbot by creating an account at the Nightbot dashboard and clicking the “Join” button after logging in. Make sure to make Nightbot a moderator in your chat with  &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;/mod Nightbot
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -119,9 +120,11 @@ It is free to use, but certain features and restrictions require payment.&lt;br 
   &lt;li&gt;The ability to allow other users (for example, some of your chat moderators) to access your dashboard. These people are called “Editors” within Moobot and have almost full access to your Moobot dashboard&lt;/li&gt;
   &lt;li&gt;Welcome messages to new viewers&lt;/li&gt;
   &lt;li&gt;Features such as changing the bots username in chat, however at a price&lt;/li&gt;
-  &lt;li&gt;To get Moobot, connect your Twitch account to the Moobot dashboard at &lt;a href=&quot;http://twitch.moobot.tv/&quot;&gt;http://twitch.moobot.tv/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;A command list is found in the Moobot dashboard - however, you dont need that! Moobot can be entirely controlled via the dashboard. To use Moobot, you have to type&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;To get Moobot, connect your Twitch account to the Moobot dashboard at &lt;a href=&quot;http://twitch.moobot.tv/&quot;&gt;http://twitch.moobot.tv/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;A command list is found in the Moobot dashboard - however, you dont need that! Moobot can be entirely controlled via the dashboard. To use Moobot, you have to type&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;/mod Moobot
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -140,13 +143,14 @@ Xanbot is completely free to use for all users.&lt;br /&gt;
   &lt;li&gt;Custom commands and autoreplies, allowing the bot to react to messages that aren’t In the form of “!command”&lt;/li&gt;
   &lt;li&gt;Raffle, Polls&lt;/li&gt;
   &lt;li&gt;Several utility commands, allowing you to display information on LoL runes, masteries, the weather and much more.&lt;/li&gt;
-  &lt;li&gt;You can get Xanbot by going to &lt;a href=&quot;http://twitch.tv/xangold&quot;&gt;http://twitch.tv/xangold&lt;/a&gt; and typing !join in chat. Afterwards, add Xanbot as a moderator in your channel with&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;You can get Xanbot by going to &lt;a href=&quot;http://twitch.tv/xangold&quot;&gt;http://twitch.tv/xangold&lt;/a&gt; and typing !join in chat. Afterwards, add Xanbot as a moderator in your channel with&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;/mod Xanbot
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;A complete command list for Xanbot can be found at &lt;a href=&quot;http://twitchtvchat.com/xanbotinfo.html&quot;&gt;http://twitchtvchat.com/xanbotinfo.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;A complete command list for Xanbot can be found at &lt;a href=&quot;http://twitchtvchat.com/xanbotinfo.html&quot;&gt;http://twitchtvchat.com/xanbotinfo.html&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;which-bot-to-choose&quot;&gt;4. Which Bot to Choose?&lt;/h2&gt;
 &lt;p&gt;Now that we have covered the most common bots on Twitch, what bot should you use? Does it need to be one of these 3?&lt;br /&gt;
