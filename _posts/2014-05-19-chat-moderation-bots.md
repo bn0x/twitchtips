@@ -152,7 +152,7 @@ Thankfully, there are a lot of people giving support for the bot you decide to u
 <br>
 However, keep in mind: we are all volunteers and may not have time to help at all points in time. Rule no.1 about getting support is patience. Leaving a support channel after a minute will most likely not give you an answer.  
 <br>
-I myself give a lot of support for the bots I know well, mainly Xanbot and Moobot. Feel free to payment me on Twitch if you have specific questions!  
+I myself give a lot of support for the bots I know well, mainly Xanbot and Moobot. Feel free to PM me on Twitch if you have specific questions!  
 
 ## 6. The DOs and DON'Ts
 <figure>
