@@ -33,12 +33,12 @@ There is a wide range of bots and reasons why you want a bot.
 <br>
 To address the first question, I will try to give an overview over the 3 most commonly used bots:  
 
-* Xanbot, developed by Aaron ‘Xangold’ Clay, who is Twitch staff as well
-* Moobot, developed by Moocat, a Twitch admin
+* Xanbot, developed by Aaron ‘Xangold’ Clay, who is Twitch Staff as well
+* Moobot, developed by Moocat, a Twitch Admin
 * Nightbot, developed by the NightDev team, the makers of BetterTTV
 
 These bots are all similar, yet optimized for different use cases.   
-Every channel can use each of the bots, but properly deciding which bot to use can make your life on twitch a lot easier.  
+Every channel can use each of the bots, but properly deciding which bot to use can make your life on Twitch a lot easier.  
 
 ### The basics
 While this does not hold true for every bot, most bots (including these three bots) can be controlled with commands that are posted in chat. 
@@ -73,7 +73,6 @@ A full command list is found in the Nightbot dashboard.
 * A dashboard, which allows you to edit settings via [http://nightbot.tv](http://nightbot.tv)
 * Automated  moderation, consisting of timeouts for spammers and offensive chatters, with a wide range of settings for each type of spam
 * Custom commands, with variables that allow you to put dynamic content to the commands, even trigger external URLs
-* AutoDJ, a feature that allows viewers to suggest songs from YouTube or Soundcloud to be played on stream and automatically plays the songs as a playlist and the ability to display the current song in chat on request, or - with a add-in for OBS and XSplit - display the song name on stream
 * Raffles – These allow you to select a random viewer for giveaways, viewer battles and similar
 * Votes/Polls – Have the viewers decide what game to play next, guess the winner of a game you are spectating or vote on which their favorite food is, or anything else that viewers should decide on 
 * The ability to allow other users (for example, some of your chat moderators) to access your dashboard. These people are called “Sub users” and have almost full access to your Nightbot dashboard
@@ -93,14 +92,14 @@ It is free to use, but certain features and restrictions require payment.
 <br>
 **Partial list of features:**
 
-* A dashboard, comparable to Nightbots dashboard at http://twitch.moobot.tv/ that not just allows you to change the bot, but even allows you to run commands remotely
+* A dashboard, comparable to Nightbots dashboard at [http://twitch.moobot.tv](http://twitch.moobot.tv) that not just allows you to change the bot, but even allows you to run commands remotely
 * Automated moderation tools, with lots of settings that allow you to customize how the bot reacts to all kinds of spam
 * Custom commands, with the ability to display information about your steam username, current game, League of Legends runes and masteries, XBL gamertags, currently playing song, and much more
 * Raffles, Polls
 * The ability to allow other users (for example, some of your chat moderators) to access your dashboard. These people are called “Editors” within Moobot and have almost full access to your Moobot dashboard
 * Welcome messages to new viewers
 * Features such as changing the bots username in chat, however at a price
-* To get Moobot, connect your twitch account to the Moobot dashboard at http://twitch.moobot.tv/
+* To get Moobot, connect your Twitch account to the Moobot dashboard at http://twitch.moobot.tv/
 * A command list is found in the Moobot dashboard - however, you dont need that! Moobot can be entirely controlled via the dashboard. To use Moobot, you have to type
 {% highlight html %}
 /mod Moobot
@@ -119,7 +118,7 @@ Xanbot is completely free to use for all users.
 * Custom commands and autoreplies, allowing the bot to react to messages that aren’t In the form of “!command”
 * Raffle, Polls
 * Several utility commands, allowing you to display information on LoL runes, masteries, the weather and much more.
-* You can get Xanbot by going to twitch.tv/xangold and typing !join in chat. Afterwards, add Xanbot as a moderator in your channel with
+* You can get Xanbot by going to [http://twitch.tv/xangold](http://twitch.tv/xangold) and typing !join in chat. Afterwards, add Xanbot as a moderator in your channel with
 {% highlight html %}
 /mod Xanbot
 {% endhighlight %}
@@ -127,15 +126,11 @@ A complete command list for Xanbot can be found at [twitchtvchat.com/xanbotinfo.
 
 
 ## 4. Which bot to choose?
-Now that we have covered the most common bots on twitch, what bot should you use? Does it need to be one of these 3?  
+Now that we have covered the most common bots on Twitch, what bot should you use? Does it need to be one of these 3?  
 <br>
 Both of these questions cannot be answered definitively. All of these bots are under constant development, improving their stability and feature set. If you have the necessity to add a bot to your stream, you can try them out, or just use whatever bot you know best.  
 <br>
 If you are new to bot usage, it is definitely suggested to use nightbot or moobot, which have a lot of similarities in their usage.   
-<br>
-If you would enjoy using the AutoDJ feature Nightbot provides, why not try that out? Want a custom username or commands with LoL information, try Moobot!  
-<br>
-Want walls over walls of Kappa emotes? Xanbot is the way to go ;)  
 <br>
 Nobody can tell you which bot to use in general, it completely depends on what you what the bot to do for you. But all of the bots above are great if used correctly.  
 <br>
@@ -155,7 +150,7 @@ Thankfully, there are a lot of people giving support for the bot you decide to u
 <br>
 However, keep in mind: We are all volunteers and may not have time to help at all points in time. Rule no.1 about getting support is patience. Leaving a support channel after a minute will most likely not give you an answer.  
 <br>
-I myself give a lot of support for the bots I know well, mainly Xanbot and Moobot. Feel free to PM me on twitch if you have specific questions!  
+I myself give a lot of support for the bots I know well, mainly Xanbot and Moobot. Feel free to PM me on Twitch if you have specific questions!  
 
 ## 6. The DOs and DONTs
 <figure>
