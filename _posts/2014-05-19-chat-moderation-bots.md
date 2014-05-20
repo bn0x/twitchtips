@@ -40,7 +40,7 @@ To address the first question, I will try to give an overview over the 3 most co
 These bots are all similar, yet optimized for different use cases.   
 Every channel can use each of the bots, but properly deciding which bot to use can make your life on Twitch a lot easier.  
 
-### The basics
+### The Basics
 While this does not hold true for every bot, most bots (including these three bots) can be controlled with commands that are posted in chat. 
 These commands usually take the form of
 {% highlight html %}
@@ -70,7 +70,7 @@ A full command list is found in the Nightbot dashboard.
 <br>
 **Most prominent features:** 
 
-* A dashboard, which allows you to edit settings via [http://nightbot.tv](http://nightbot.tv)
+* A dashboard, which allows you to edit settings via [http://Nightbot.tv](http://nightbot.tv)
 * Automated  moderation, consisting of timeouts for spammers and offensive chatters, with a wide range of settings for each type of spam
 * Custom commands, with variables that allow you to put dynamic content to the commands, even trigger external URLs
 * Raffles – These allow you to select a random viewer for giveaways, viewer battles and similar
@@ -86,7 +86,7 @@ A full command list is found in the Nightbot dashboard.
 ### Moobot
 A bot designed for ease-of-use, with a high-level dashboard from which you can edit all of the bots settings.  
 <br>
-One of the biggest benefits is its extreme speed and reliability, built to prevent spam by timing out users fast enough that users dont even get to see bad messages, instead of removing them after a short duration.  
+One of the biggest benefits is its extreme speed and reliability, built to prevent spam by timing out users fast enough that users don't even get to see bad messages, instead of removing them after a short duration.  
 <br>
 It is free to use, but certain features and restrictions require payment.  
 <br>
@@ -99,7 +99,7 @@ It is free to use, but certain features and restrictions require payment.
 * The ability to allow other users (for example, some of your chat moderators) to access your dashboard. These people are called “Editors” within Moobot and have almost full access to your Moobot dashboard
 * Welcome messages to new viewers
 * Features such as changing the bots username in chat, however at a price
-* To get Moobot, connect your Twitch account to the Moobot dashboard at http://twitch.moobot.tv/
+* To get Moobot, connect your Twitch account to the Moobot dashboard at [http://twitch.moobot.tv/](http://twitch.moobot.tv/)
 * A command list is found in the Moobot dashboard - however, you dont need that! Moobot can be entirely controlled via the dashboard. To use Moobot, you have to type
 {% highlight html %}
 /mod Moobot
@@ -112,9 +112,9 @@ However, it excels at moderation thanks to its support for regular expressions, 
 <br>
 Xanbot is completely free to use for all users.  
 <br>
-**Some of Xanbots features:**
+**Some of Xanbot's features:**
 
-* Sophisticated spam removal via the support of regular expressions on top of the basic spam filters that it essentially shares with nightbot and xanbot
+* Sophisticated spam removal via the support of regular expressions on top of the basic spam filters that it essentially shares with Nightbot and Xanbot
 * Custom commands and autoreplies, allowing the bot to react to messages that aren’t In the form of “!command”
 * Raffle, Polls
 * Several utility commands, allowing you to display information on LoL runes, masteries, the weather and much more.
@@ -122,46 +122,45 @@ Xanbot is completely free to use for all users.
 {% highlight html %}
 /mod Xanbot
 {% endhighlight %}
-A complete command list for Xanbot can be found at [twitchtvchat.com/xanbotinfo.html](twitchtvchat.com/xanbotinfo.html)
+A complete command list for Xanbot can be found at [Twitchtvchat.com/xanbotinfo.html](twitchtvchat.com/xanbotinfo.html)
 
-
-## 4. Which bot to choose?
+## 4. Which Bot to Choose?
 Now that we have covered the most common bots on Twitch, what bot should you use? Does it need to be one of these 3?  
 <br>
 Both of these questions cannot be answered definitively. All of these bots are under constant development, improving their stability and feature set. If you have the necessity to add a bot to your stream, you can try them out, or just use whatever bot you know best.  
 <br>
-If you are new to bot usage, it is definitely suggested to use nightbot or moobot, which have a lot of similarities in their usage.   
+If you are new to bot usage, it is definitely suggested to use Nightbot or Moobot, which have a lot of similarities in their usage.   
 <br>
 Nobody can tell you which bot to use in general, it completely depends on what you what the bot to do for you. But all of the bots above are great if used correctly.  
 <br>
 Alternatively, there are other bots which have not been handled here, examples would be DeepBot, Ackbot, and custom made bots, often just made for a single channel.  
 In a lot of cases, these aren’t provided free of charge however or pose the problem of hosting – they require a server to be run on.
 
-## 5. Getting support
+## 5. Getting Support
 Using a bot can be complicated and hard to people who are new to moderation.   
 Thankfully, there are a lot of people giving support for the bot you decide to use! In the case of the 3 bots listed above, you can find support for  
 <br>
-**Nightbot:** Use the support form on the Nightbot dashboard: [http://nightbot.tv/support](http://nightbot.tv/support)  
+**Nightbot:** Use the support form on the Nightbot dashboard: [http://Nightbot.tv/support](http://nightbot.tv/support)  
 <br>
-**Moobot:** Tweet at [https://twitter.com/TwitchTVMoobot](https://twitter.com/TwitchTVMoobot) or ask in [http://www.twitch.tv/moobot](http://www.twitch.tv/moobot), I sometimes read that chat  
+**Moobot:** Tweet at [https://Twitter.com/TwitchTVMoobot](https://twitter.com/TwitchTVMoobot) or ask in [http://www.Twitch.tv/Moobot](http://www.twitch.tv/moobot), I sometimes read that chat  
 <br>
-**Xanbot:** Tweet at [https://twitter.com/xangold](https://twitter.com/xangold), [https://twitter.com/xanbotupdates](https://twitter.com/xanbotupdates) or just ask in [http://www.twitch.tv/xangold](http://www.twitch.tv/xangold), I usually stick around.  
+**Xanbot:** Tweet at [https://Twitter.com/Xangold](https://twitter.com/xangold), [https://Twitter.com/XanbotUpdates](https://twitter.com/xanbotupdates) or just ask in [http://www.Twitch.tv/Xangold](http://www.twitch.tv/xangold), I usually stick around.  
 
 <br>
-However, keep in mind: We are all volunteers and may not have time to help at all points in time. Rule no.1 about getting support is patience. Leaving a support channel after a minute will most likely not give you an answer.  
+However, keep in mind: we are all volunteers and may not have time to help at all points in time. Rule no.1 about getting support is patience. Leaving a support channel after a minute will most likely not give you an answer.  
 <br>
 I myself give a lot of support for the bots I know well, mainly Xanbot and Moobot. Feel free to PM me on Twitch if you have specific questions!  
 
-## 6. The DOs and DONTs
+## 6. The DOs and DON'Ts
 <figure>
     <a href="/images/bot_guide/image3.png"><img src="/images/bot_guide/image3.png"></a>
     	<figcaption>Example of a poorly configured bot.</figcaption>
 </figure>
 
-While the image above might be slightly overdone, it is a common thing that I regularly see in alot of streams - people overuse a bots features, in a way that makes chat dominated by a bot.  
+While the image above might be slightly overdone, it is a common thing that I regularly see in a lot of streams - people overuse a bots features, in a way that makes chat dominated by a bot.  
 <br>
 This is one of the key reasons why it is recommended not to use a bot for small channel.  
-A good rule you can apply to autoreplies and similar: if more than one autimatically repeated bot message is visible at a single point in time, you are overdoing it.
+A good rule you can apply to autoreplies and similar: if more than one automatically repeated bot message is visible at a single point in time, you are overdoing it.
 
 #### DO:
 **Keep spam by the bot low.**  
@@ -176,7 +175,7 @@ If a certain question gets asked very frequently, just make a command that provi
 <br>
 If you are unsure or new to bots and need help setting one up, there is always people with more experience than you who can help you out. (See part 5)
 
-#### DONT:
+#### DON'T:
 **Make your chat dominated by a bot (or several bots).**  
 <br>
 People coming your channel want to interact with you, not some computer program.  
