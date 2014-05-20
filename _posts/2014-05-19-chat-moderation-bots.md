@@ -15,7 +15,7 @@ These can perform basic moderation tasks, such as timing out users automatically
 
 <figure>
     <a href="/images/bot_guide/image1.png"><img src="/images/bot_guide/image1.png"></a>
-    	<figcaption>Example of a bot, reacting to a custom command.</figcaption>
+    	<figcaption>Example of a built-in command to create a custom command.</figcaption>
 </figure>
 
 ## 2. When and why should I get a bot?
@@ -52,7 +52,7 @@ Additionally, most bots allow for the creation of custom commands, which make th
 <br>
 <figure>
     <a href="/images/bot_guide/image2.png"><img src="/images/bot_guide/image2.png"></a>
-    	<figcaption>Example of a built-in command to create a custom command.</figcaption>
+    	<figcaption>Example of a bot, reacting to a custom command.</figcaption>
 </figure>
 
 The exact commands available differ greatly between the bots covered here, which is why I will not go into full detail about them - there are help pages and command lists for all of these bots.  
@@ -75,7 +75,8 @@ A full command list is found in the Nightbot dashboard.
 * Raffles – These allow you to select a random viewer for giveaways, viewer battles and similar
 * Votes/Polls – Have the viewers decide what game to play next, guess the winner of a game you are spectating or vote on which their favorite food is, or anything else that viewers should decide on 
 * The ability to allow other users (for example, some of your chat moderators) to access your dashboard. These people are called “Sub users” and have almost full access to your Nightbot dashboard
-* You can get Nightbot by creating an account at the Nightbot dashboard and clicking the “Join” button after logging in. Make sure to make Nightbot a moderator in your chat with  
+
+You can get Nightbot by creating an account at the Nightbot dashboard and clicking the “Join” button after logging in. Make sure to make Nightbot a moderator in your chat with  
 {% highlight html %}
 /mod Nightbot
 {% endhighlight %}
@@ -98,8 +99,10 @@ It is free to use, but certain features and restrictions require payment.
 * The ability to allow other users (for example, some of your chat moderators) to access your dashboard. These people are called “Editors” within Moobot and have almost full access to your Moobot dashboard
 * Welcome messages to new viewers
 * Features such as changing the bots username in chat, however at a price
-* To get Moobot, connect your Twitch account to the Moobot dashboard at [http://twitch.moobot.tv/](http://twitch.moobot.tv/)
-* A command list is found in the Moobot dashboard - however, you dont need that! Moobot can be entirely controlled via the dashboard. To use Moobot, you have to type
+
+To get Moobot, connect your Twitch account to the Moobot dashboard at [http://twitch.moobot.tv/](http://twitch.moobot.tv/)
+
+<br>A command list is found in the Moobot dashboard - however, you dont need that! Moobot can be entirely controlled via the dashboard. To use Moobot, you have to type
 {% highlight html %}
 /mod Moobot
 {% endhighlight %}
@@ -117,11 +120,12 @@ Xanbot is completely free to use for all users.
 * Custom commands and autoreplies, allowing the bot to react to messages that aren’t In the form of “!command”
 * Raffle, Polls
 * Several utility commands, allowing you to display information on LoL runes, masteries, the weather and much more.
-* You can get Xanbot by going to [http://twitch.tv/xangold](http://twitch.tv/xangold) and typing !join in chat. Afterwards, add Xanbot as a moderator in your channel with
+
+You can get Xanbot by going to [http://twitch.tv/xangold](http://twitch.tv/xangold) and typing !join in chat. Afterwards, add Xanbot as a moderator in your channel with
 {% highlight html %}
 /mod Xanbot
 {% endhighlight %}
-A complete command list for Xanbot can be found at [http://twitchtvchat.com/xanbotinfo.html](http://twitchtvchat.com/xanbotinfo.html)
+<br>A complete command list for Xanbot can be found at [http://twitchtvchat.com/xanbotinfo.html](http://twitchtvchat.com/xanbotinfo.html)
 
 ## 4. Which Bot to Choose?
 Now that we have covered the most common bots on Twitch, what bot should you use? Does it need to be one of these 3?  
