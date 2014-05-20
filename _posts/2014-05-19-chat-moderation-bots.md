@@ -162,7 +162,7 @@ I myself give a lot of support for the bots I know well, mainly Xanbot and Moobo
 
 While the image above might be slightly overdone, it is a common thing that I regularly see in a lot of streams - people overuse a bots features, in a way that makes chat dominated by a bot.  
 <br>
-This is one of the key reasons why it is recommended not to use a bot for small channel.  
+This is one of the key reasons why it is recommended not to use a bot for small channels.  
 A good rule you can apply to autoreplies and similar: if more than one automatically repeated bot message is visible at a single point in time, you are overdoing it.
 
 #### DO:
