@@ -70,7 +70,7 @@ A full command list is found in the Nightbot dashboard.
 <br>
 **Most prominent features:** 
 
-* A dashboard, which allows you to edit settings via [http://Nightbot.tv](http://nightbot.tv)
+* A dashboard, which allows you to edit settings via [http://nightbot.tv](http://nightbot.tv)
 * Automated  moderation, consisting of timeouts for spammers and offensive chatters, with a wide range of settings for each type of spam
 * Custom commands, with variables that allow you to put dynamic content to the commands, even trigger external URLs
 * Raffles – These allow you to select a random viewer for giveaways, viewer battles and similar
@@ -92,7 +92,7 @@ It is free to use, but certain features and restrictions require payment.
 <br>
 **Partial list of features:**
 
-* A dashboard, comparable to Nightbots dashboard at [http://twitch.moobot.tv](http://twitch.moobot.tv) that not just allows you to change the bot, but even allows you to run commands remotely
+* A dashboard, comparable to Nightbot's dashboard at [http://twitch.moobot.tv](http://twitch.moobot.tv) that not just allows you to change the bot, but even allows you to run commands remotely
 * Automated moderation tools, with lots of settings that allow you to customize how the bot reacts to all kinds of spam
 * Custom commands, with the ability to display information about your steam username, current game, League of Legends runes and masteries, XBL gamertags, currently playing song, and much more
 * Raffles, Polls
@@ -122,7 +122,7 @@ Xanbot is completely free to use for all users.
 {% highlight html %}
 /mod Xanbot
 {% endhighlight %}
-A complete command list for Xanbot can be found at [Twitchtvchat.com/xanbotinfo.html](twitchtvchat.com/xanbotinfo.html)
+A complete command list for Xanbot can be found at [http://twitchtvchat.com/xanbotinfo.html](http://twitchtvchat.com/xanbotinfo.html)
 
 ## 4. Which Bot to Choose?
 Now that we have covered the most common bots on Twitch, what bot should you use? Does it need to be one of these 3?  
@@ -140,16 +140,16 @@ In a lot of cases, these aren’t provided free of charge however or pose the pr
 Using a bot can be complicated and hard to people who are new to moderation.   
 Thankfully, there are a lot of people giving support for the bot you decide to use! In the case of the 3 bots listed above, you can find support for  
 <br>
-**Nightbot:** Use the support form on the Nightbot dashboard: [http://Nightbot.tv/support](http://nightbot.tv/support)  
+**Nightbot:** Use the support form on the Nightbot dashboard: [http://nightbot.tv/support](http://nightbot.tv/support)  
 <br>
-**Moobot:** Tweet at [https://Twitter.com/TwitchTVMoobot](https://twitter.com/TwitchTVMoobot) or ask in [http://www.Twitch.tv/Moobot](http://www.twitch.tv/moobot), I sometimes read that chat  
+**Moobot:** Tweet at [https://twitter.com/TwitchTVMoobot](https://twitter.com/TwitchTVMoobot) or ask in [http://twitch.tv/Moobot](http://twitch.tv/moobot), I sometimes read that chat  
 <br>
-**Xanbot:** Tweet at [https://Twitter.com/Xangold](https://twitter.com/xangold), [https://Twitter.com/XanbotUpdates](https://twitter.com/xanbotupdates) or just ask in [http://www.Twitch.tv/Xangold](http://www.twitch.tv/xangold), I usually stick around.  
+**Xanbot:** Tweet at [https://twitter.com/Xangold](https://twitter.com/xangold), [https://twitter.com/XanbotUpdates](https://twitter.com/xanbotupdates) or just ask in [http://twitch.tv/Xangold](http://twitch.tv/xangold), I usually stick around.  
 
 <br>
 However, keep in mind: we are all volunteers and may not have time to help at all points in time. Rule no.1 about getting support is patience. Leaving a support channel after a minute will most likely not give you an answer.  
 <br>
-I myself give a lot of support for the bots I know well, mainly Xanbot and Moobot. Feel free to PM me on Twitch if you have specific questions!  
+I myself give a lot of support for the bots I know well, mainly Xanbot and Moobot. Feel free to payment me on Twitch if you have specific questions!  
 
 ## 6. The DOs and DON'Ts
 <figure>
@@ -207,4 +207,4 @@ This article was written by CBenni.
 <br>**You can find CBenni on:**
 
 * [Twitter](https://www.twitter.com/CBenni_o)
-* [Twitch](http://www.twitch.tv/Cbenni)
+* [Twitch](http://twitch.tv/Cbenni)
