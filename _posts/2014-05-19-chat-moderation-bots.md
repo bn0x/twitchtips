@@ -4,7 +4,6 @@ title: Chat moderation bots
 description: "Connecting to Twitch IRC can be quite the task for those not knowledgeable with IRC client, check out how you can set yourself up connecting to Twitch chats using KVIRC."
 tags: [twitch,chat,bots,xanbot,moobot,nightbot]
 comments: true
-draft: true
 ---
 ## 1. Bots - what are they?
 While having moderators in chat is nice, they are, in fact, human.   
