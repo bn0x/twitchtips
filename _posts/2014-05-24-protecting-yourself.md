@@ -60,7 +60,6 @@ Unfortunately it happens, there are people out there that will exploit, abuse an
 
 * If you can help it, never use the same username or alias on multiple websites that aren't related to your online streaming persona.
 * Use different passwords for every website, **never** use the same password for multiple websites - if it's compromised via one website, it's compromised for the rest you use.
-* Use throwaway / burner e-mail accounts if you so wish, these accounts are basically freshly registered e-mail accounts that are never used again or only used for a certain purpose.
 * Invest into a VPN or proxy service, this way websites you use will never actually see your real IP address therefore if they're compromised you aren't exposed.
 
 <br>Other than the tips stated above, there's not much else you can do - be careful what information you share and who you share it with. Knowledge is power and people will abuse that if they can.
