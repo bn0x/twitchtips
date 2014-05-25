@@ -46,6 +46,10 @@ Some services such as Skype are known as VOIP applications, it basically means v
 
 <br>If you'd like to know how to set up  a proxy for your Skype account or other internet services, simple follow [this guide](http://imgur.com/a/NpFdW) written by [Fire](https://twitter.com/IncendiaryMedia).
 
+<figure>
+    <a href="/images/skype_warning.png"><img src="/images/skype_warning.png"></a>
+</figure>
+
 <br>If you don't wish to set up a proxy for Skype or other services you use we highly recommend you keep your contacts absolutely limited to people you **know** you can trust. If you add them to your contacts and they have malicious intentions there's no stopping them from resolving your handle if you don't have a proxy set up.
 
 <br>It is also noteworthy you can use a VPN (virtual private network) to mask your actual IP address however VPN's generally mask **all of your traffic** rather than just Skype for example. A lot of VPN services have been banned through other users abusing them.
