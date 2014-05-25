@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://twitchtips.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://twitchtips.com" />
-<updated>2014-05-24T21:48:27+01:00</updated>
+<updated>2014-05-25T01:48:46+01:00</updated>
 <id>http://twitchtips.com/</id>
 <author>
   <name>Twitch Tips</name>
@@ -65,6 +65,10 @@
 &lt;p&gt;&lt;br /&gt;Firstly you’re going to want to go ahead and enable “Allow direct connections to your contacts only”. This will present users outside of your Skype friends lists from querying your IP address.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;If you’d like to know how to set up  a proxy for your Skype account or other internet services, simple follow &lt;a href=&quot;http://imgur.com/a/NpFdW&quot;&gt;this guide&lt;/a&gt; written by &lt;a href=&quot;https://twitter.com/IncendiaryMedia&quot;&gt;Fire&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/skype_warning.png&quot;&gt;&lt;img src=&quot;/images/skype_warning.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;&lt;br /&gt;If you don’t wish to set up a proxy for Skype or other services you use we highly recommend you keep your contacts absolutely limited to people you &lt;strong&gt;know&lt;/strong&gt; you can trust. If you add them to your contacts and they have malicious intentions there’s no stopping them from resolving your handle if you don’t have a proxy set up.&lt;/p&gt;
 
