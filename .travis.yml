@@ -3,6 +3,10 @@ cache: bundler
 
 script: bundle exec rake site:deploy
 
+branches:
+  only:
+    - master
+
 notifications:
   email:
     recipients:
