@@ -4,7 +4,6 @@ title: Multi-display Broadcasting (OBS Guide)
 description: "A Guide to Multi-display broadcasting ie: (Nvidia Surround/Eyefinity) Using OBS"
 tags: [nvidia surround, surround gaming, eyefinity, multiple displays, multi-display broadcasting]
 comments: true
-draft: true
 ---
 This tutorial will guide you through the process of how you can use ***OBS*** (*Open Broadcast Software*) to broadcast using multiple displays ie: (Nvidia Surround/Eyefinity).
 
