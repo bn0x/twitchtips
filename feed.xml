@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://twitchtips.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://twitchtips.com" />
-<updated>2014-06-14T18:09:13+01:00</updated>
+<updated>2014-06-14T18:12:04+01:00</updated>
 <id>http://twitchtips.com/</id>
 <author>
   <name>Twitch Tips</name>
@@ -13,6 +13,80 @@
 </author>
 
   
+  <entry>
+    <title type="html"><![CDATA[Multi-display Broadcasting (OBS Guide)]]></title>
+    <link rel="alternate" type="text/html" href="http://twitchtips.com/multi-display/" />
+    <id>http://twitchtips.com/multi-display</id>
+    <published>2014-06-14T00:00:00+01:00</published>
+    <updated>2014-06-14T00:00:00+01:00</updated>
+    <author>
+      <name>Twitch Tips</name>
+      <uri>http://twitchtips.com</uri>
+      <email>contact@twitchtips.com</email>
+    </author>
+    <content type="html">&lt;p&gt;This tutorial will guide you through the process of how you can use &lt;strong&gt;&lt;em&gt;OBS&lt;/em&gt;&lt;/strong&gt; (&lt;em&gt;Open Broadcast Software&lt;/em&gt;) to broadcast using multiple displays ie: (Nvidia Surround/Eyefinity).&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;This is an &lt;strong&gt;&lt;em&gt;example&lt;/em&gt;&lt;/strong&gt; of how the default settings using &lt;strong&gt;&lt;em&gt;Game Capture&lt;/em&gt;&lt;/strong&gt; in &lt;strong&gt;&lt;em&gt;OBS&lt;/em&gt;&lt;/strong&gt; would appear to you and your viewers. Using this guide will allow you to broadcast your center display.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/multi-display/1.png&quot;&gt;&lt;img src=&quot;/images/multi-display/1.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Open OBS. At this point you should also open up the game you plan to broadcast and/or record and &lt;strong&gt;&lt;em&gt;alt+tab&lt;/em&gt;&lt;/strong&gt; out.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Click on &lt;strong&gt;&lt;em&gt;Settings&lt;/em&gt;&lt;/strong&gt; &amp;gt; &lt;strong&gt;&lt;em&gt;Video&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/multi-display/2.png&quot;&gt;&lt;img src=&quot;/images/multi-display/2.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; Enter the &lt;strong&gt;&lt;em&gt;Custom Resolution Size&lt;/em&gt;&lt;/strong&gt; as your monitor size. In my case, &lt;strong&gt;&lt;em&gt;1920x1080&lt;/em&gt;&lt;/strong&gt;. You can also choose your &lt;strong&gt;&lt;em&gt;Resolution Downscale&lt;/em&gt;&lt;/strong&gt; too.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/multi-display/3.png&quot;&gt;&lt;img src=&quot;/images/multi-display/3.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Click on &lt;strong&gt;&lt;em&gt;OK&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;Step 5:&lt;/strong&gt; Right click in the &lt;strong&gt;&lt;em&gt;Sources&lt;/em&gt;&lt;/strong&gt; box and click &lt;strong&gt;&lt;em&gt;Add&lt;/em&gt;&lt;/strong&gt; &amp;gt; &lt;strong&gt;&lt;em&gt;Game Capture&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/multi-display/4.png&quot;&gt;&lt;img src=&quot;/images/multi-display/4.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 6:&lt;/strong&gt; Click on Application &lt;strong&gt;&lt;em&gt;drop-down menu&lt;/em&gt;&lt;/strong&gt; and choose the game you wish to broadcast. You may need to click on refresh if you’ve only just openend a game.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/multi-display/5.png&quot;&gt;&lt;img src=&quot;/images/multi-display/5.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 7:&lt;/strong&gt; Click &lt;strong&gt;&lt;em&gt;OK&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;Step 8:&lt;/strong&gt; Now let’s see how it looks. Click on &lt;strong&gt;&lt;em&gt;Preview&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/multi-display/6.png&quot;&gt;&lt;img src=&quot;/images/multi-display/6.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So now as you can see we’re now capturing the middle display. For the purpose of this tutorial I have Minecraft in window mode but it will work correctly in fullscreen. But you might want to remove the black bars.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;Step 9:&lt;/strong&gt; Click on the the &lt;strong&gt;&lt;em&gt;Source&lt;/em&gt;&lt;/strong&gt; you added. Then click &lt;strong&gt;&lt;em&gt;Edit Scene&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/multi-display/7.png&quot;&gt;&lt;img src=&quot;/images/multi-display/7.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 10:&lt;/strong&gt; Point your &lt;strong&gt;&lt;em&gt;cursor&lt;/em&gt;&lt;/strong&gt; to the very edge of the game capture seeing the red border liness. While holding &lt;strong&gt;&lt;em&gt;Shift&lt;/em&gt;&lt;/strong&gt;. Drag your mouse down until you’ve filled the black bars. Repeat the process for the top.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/multi-display/8.png&quot;&gt;&lt;img src=&quot;/images/multi-display/8.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;And there you have it. If you followed these instructions correctly you should now be able to start broadcasting in a multi-display configuration (Nvidia Surround, Eyefinity Setup).&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/multi-display/&quot;&gt;Multi-display Broadcasting (OBS Guide)&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on June 14, 2014.&lt;/p&gt;</content>
+  </entry>
+
 
   
   <entry>
