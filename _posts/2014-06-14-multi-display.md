@@ -56,8 +56,8 @@ This tutorial will guide you through the process of how you can use ***OBS*** (*
 
 
 So now as you can see we're now capturing the middle display. For the purpose of this tutorial I have Minecraft in window mode but it will work correctly in fullscreen. But you might want to remove the black bars.
-<br>
-**Step 9:** Click on the the ***Source*** you added. Then click ***Edit Scene***.
+
+<br>**Step 9:** Click on the the ***Source*** you added. Then click ***Edit Scene***.
 
 <figure>
     <a href="/images/multi-display/7.png"><img src="/images/multi-display/7.png"></a>
