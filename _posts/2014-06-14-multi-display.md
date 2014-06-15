@@ -70,3 +70,7 @@ So now as you can see we're now capturing the middle display. For the purpose of
 
 
 And there you have it. If you followed these instructions correctly you should now be able to start broadcasting in a multi-display configuration (Nvidia Surround, Eyefinity Setup).
+
+---
+	
+<br>This article was written by Sammy. You can find Sammy on [Twitter](http://www.twitter.com/ImSammyTTV) and [Twitch](http://www.twitch.com/ImSammy).
