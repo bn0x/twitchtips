@@ -73,4 +73,4 @@ And there you have it. If you followed these instructions correctly you should n
 
 ---
 	
-<br>This article was written by Sammy. You can find Sammy on [Twitter](http://www.twitter.com/ImSammyTTV) and [Twitch](http://www.twitch.com/ImSammy).
+<br>This article was written by Sammy. You can find Sammy on [Twitter](http://www.twitter.com/ImSammyTTV) and [Twitch](http://www.twitch.tv/ImSammy).
