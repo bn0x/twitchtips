@@ -18,10 +18,10 @@ These subscriptions last until December 31st, 2014 @ 11:59AM - essentially it's 
 
 ---
 
-**6 Kappa Emote Packs** can be won by clicking the button below this text! Those who tweet within the next 48 hours will be entered into the draw! Winners will be chosen by random that use the #TwitchTipsGiveawayTwo hashtag!
+**6 Kappa Emote Packs** can be won by clicking the button below this text! Those who tweet within the next 48 hours will be entered into the draw! Winners will be chosen by random that use the #TwitchTipsGiveawayTwo hashtag!  
 <br>
 Be sure to [follow us on Twitter](http://www.twitter.com/TwitchTips) so we can DM you the redeem code if you do win! If you're not following us, we'll send you a tweet to let you know you won, but if you don't reply within 24 hours we'll unfortunately have to give it away to a runner up.  
-
+<br>
 {% raw %}
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="Just entered myself in @TwitchTips second giveaway! #TwitchTipsGiveawayTwo" data-size="large">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
