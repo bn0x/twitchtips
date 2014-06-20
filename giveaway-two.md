@@ -12,7 +12,7 @@ These subscriptions last until December 31st, 2014 @ 11:59AM - essentially it's 
 --- 
 **4 Kappa Emote Packs** can be won by contributing to TwitchTips, send us a helpful tip, guide or article and if it gives us goosebumps or even a smile we'll send you a redeem code for your Kappa pack!  
 <br>
-*Unsure how to contribute? Check out our [contribution page](http://www.twitchtips.com/contribute) and find out how you can grab yourself a Kappa pack for helping others!*  
+*Unsure how to contribute? Check out our **[contribution page](http://www.twitchtips.com/contribute)** and find out how you can grab yourself a Kappa pack for helping others!*  
 <br>
 **One lucky contributor will also win a Steam game or item of their choice worth up to $20.00 USD!**  
 
@@ -29,6 +29,6 @@ Be sure to [follow us on Twitter](http://www.twitter.com/TwitchTips) so we can D
 
 ---
 
-Thanks to the awesome guys over at Twitch who gave us this opportunity to give you all a little something different.  
+Thanks to the awesome guys over at Twitch who gave us this opportunity to give you all a little something special.  
 <br>
 If you do win be sure to send your thanks over to [@Xangold](https://www.twitter.com/xangold) and [@JasonMaestas](https://www.twitter.com/JasonMaestas).
