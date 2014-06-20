@@ -3,7 +3,6 @@ layout: post
 title: HexChat Setup for Twitch Chat
 description: "Connecting to Twitch IRC can be quite the task for those not knowledgeable with IRC client, check out how you can set yourself up connecting to Twitch chats using HexChat."
 tags: [twitch,hexchat,irc,twitch,chat,oauth]
-draft: true
 comments: true
 get-started: true
 ---
