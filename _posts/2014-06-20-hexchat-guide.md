@@ -59,4 +59,4 @@ Standard IRC context applies here as above.  To join a channel simply type */joi
     <a href="/images/hexchat_guide/autojoin.png"><img src="/images/hexchat_guide/autojoin.png"></a>
 </figure>
 
-Written by [@GUIpsp](http://www.twitter.com/GUIpsp) with <3 based on the kvirc guide by [@Izlsnizzt](http://www.twitter.com/Izlsnizzt).
+Written by [@GUIpsp](http://www.twitter.com/GUIpsp) based on the [KVIRC setup guide](http://twitchtips.com/kvirc-guide/) by [@Izlsnizzt](http://www.twitter.com/Izlsnizzt).
