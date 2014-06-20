@@ -5,9 +5,9 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>The BetterTTV Extension &#8211; Twitch Tips</title>
-<meta name="description" content="Get the best out of Twitch with these enhancements">
-<meta name="keywords" content="Better Twitch, BetterTTV, BTTV, Customization, Dark Mode, Twitch enhancements">
+<title>HexChat Setup for Twitch Chat &#8211; Twitch Tips</title>
+<meta name="description" content="Connecting to Twitch IRC can be quite the task for those not knowledgeable with IRC client, check out how you can set yourself up connecting to Twitch chats using HexChat.">
+<meta name="keywords" content="twitch, hexchat, irc, twitch, chat, oauth">
 <!-- Twitter Cards -->
 	
 		<meta name="twitter:card" content="summary">
@@ -19,17 +19,17 @@
 			
 		>
 	
-	<meta name="twitter:title" content="The BetterTTV Extension">
-	<meta name="twitter:description" content="Get the best out of Twitch with these enhancements">
+	<meta name="twitter:title" content="HexChat Setup for Twitch Chat">
+	<meta name="twitter:description" content="Connecting to Twitch IRC can be quite the task for those not knowledgeable with IRC client, check out how you can set yourself up connecting to Twitch chats using HexChat.">
 	<meta name="twitter:creator" content="@TwitchTips">
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="The BetterTTV Extension">
-<meta property="og:description" content="Get the best out of Twitch with these enhancements">
-<meta property="og:url" content="http://twitchtips.com/betterttv/">
+<meta property="og:title" content="HexChat Setup for Twitch Chat">
+<meta property="og:description" content="Connecting to Twitch IRC can be quite the task for those not knowledgeable with IRC client, check out how you can set yourself up connecting to Twitch chats using HexChat.">
+<meta property="og:url" content="http://twitchtips.com/hexchat-guide/">
 <meta property="og:site_name" content="Twitch Tips">
 
 <!-- Webmaster Tools verfication -->
@@ -37,7 +37,7 @@
 
 
 
-<link rel="canonical" href="http://twitchtips.com/betterttv/">
+<link rel="canonical" href="http://twitchtips.com/hexchat-guide/">
 <link href="http://twitchtips.com/feed.xml" type="application/atom+xml" rel="alternate" title="Twitch Tips Feed">
 
 
@@ -179,94 +179,69 @@
 </section>
 
       
-        <h1><a href="http://twitchtips.com/betterttv/" rel="bookmark" title="The BetterTTV Extension">The BetterTTV Extension</a></h1>
+        <h1><a href="http://twitchtips.com/hexchat-guide/" rel="bookmark" title="HexChat Setup for Twitch Chat">HexChat Setup for Twitch Chat</a></h1>
       
       <div id="social-share">
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http://twitchtips.com/betterttv/" title="Share on Facebook"><span class="count"><i class="icon-facebook"></i> Like</span></a>
-  <a href="https://twitter.com/intent/tweet?text=http://twitchtips.com/betterttv/&via=TwitchTips&hashtags=TwitchTips" title="Share on Twitter"><span class="count"><i class="icon-twitter"></i> Tweet</span></a>
-  <a href="https://plus.google.com/share?url=http://twitchtips.com/betterttv/" title="Share on Google Plus"><span class="count"><i class="icon-google-plus"></i> +1</span></a>
-  <a href="http://reddit.com/submit?url=http://twitchtips.com/betterttv/" title="Share on Reddit"><span class="count"><i style="font-size: 15pt" class="fa fa-reddit-square"></i> Reddit</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://twitchtips.com/hexchat-guide/" title="Share on Facebook"><span class="count"><i class="icon-facebook"></i> Like</span></a>
+  <a href="https://twitter.com/intent/tweet?text=http://twitchtips.com/hexchat-guide/&via=TwitchTips&hashtags=TwitchTips" title="Share on Twitter"><span class="count"><i class="icon-twitter"></i> Tweet</span></a>
+  <a href="https://plus.google.com/share?url=http://twitchtips.com/hexchat-guide/" title="Share on Google Plus"><span class="count"><i class="icon-google-plus"></i> +1</span></a>
+  <a href="http://reddit.com/submit?url=http://twitchtips.com/hexchat-guide/" title="Share on Reddit"><span class="count"><i style="font-size: 15pt" class="fa fa-reddit-square"></i> Reddit</span></a>
 </div>
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p>BetterTTV Enhances Twitch with new features, bug fixes, and reduced clutter.</p>
+      <p>Connecting to Twitch IRC can be quite the task for those not knowledgeable with IRC client, check out how you can set yourself up connecting to Twitch chats using HexChat.</p>
 
-<h2 id="features">Features</h2>
-
-<ul>
-  <li>Chat Tweaks</li>
-  <li>Blacklist spam</li>
-  <li>Chat field history</li>
-  <li>Highlight words and phrases</li>
-  <li>Improved connection monitoring</li>
-  <li>Improved server selection</li>
-  <li>Resizeable (drag-able) chat</li>
-  <li>Show or remove deleted messages</li>
-  <li>Split chat lines and paragraph indentation</li>
-  <li>Unban all users with /massunban</li>
-  <li>Username color calculation (prevents hard-to-read names)</li>
-  <li>
-    <p>Username tab completion</p>
-  </li>
-  <li>
-    <p>Broadcast Dashboard
-<br />Prioritizes chat, and auto-updates channel statistics</p>
-  </li>
-  <li>
-    <p>Darken Twitch
-<br />A slick, grey theme which will make you love Twitch even more</p>
-  </li>
-  <li>Notifications
-<br />On-site and desktop notifications when people send you messages, mention you in chat, and when channels you follow go live &amp; More!</li>
-</ul>
-
-<h2 id="a-quick-guide-to-setting-up-betterttv">A Quick guide to setting up BetterTTV</h2>
-
-<p>Download it from the specific link for your browser<br />
-<a href="https://chrome.google.com/webstore/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped?hl=en">Chrome</a><br />
-<a href="http://www.nightdev.com/betterttv/betterttvfirefox.xpi">Firefox</a><br />
-<a href="http://www.nightdev.com/betterttv/betterttvopera.nex">Opera</a><br />
-<a href="http://www.nightdev.com/betterttv/betterttvsafari.safariextz">Safari</a><br />
-<a href="http://www.nightdev.com/betterttv/betterttvie.exe">Internet Explorer</a><br />
-<a href="http://www.nightdev.com/betterttv/betterttv.user.js">UserScript for GreaseMonkey / Tamper Monkey</a>  </p>
-
-<p><br />Once you have installed it navigate to a TwitchTV channel, Click the Cog And Click BetterTTV Settings.</p>
+<h1 id="adding-a-network">Adding a Network</h1>
+<p>Navigate to HexChat &gt; Network List (or press ctrl+s)</p>
 
 <figure>
- <a href="/images/customization_guide/bttv_howto_settings.png"><img src="/images/customization_guide/bttv_howto_settings.png" /></a>
+    <a href="/images/hexchat_guide/settings.png"><img src="/images/hexchat_guide/settings.png" /></a>
 </figure>
 
-<p><br />Then choose your settings, Below are my custom settings which I think are the best way to do it but feel free to try everything out!</p>
+<p>Click <strong>Add</strong> to add a new network. Name it whatever you desire.</p>
 
 <figure>
- <a href="/images/customization_guide/bttv_custom_settings.png"><img src="/images/customization_guide/bttv_custom_settings.png" /></a>
+    <a href="/images/hexchat_guide/networklist.png"><img src="/images/hexchat_guide/networklist.png" /></a>
 </figure>
-<hr />
 
-<h2 id="chroma-keying-chat">Chroma Keying Chat</h2>
+<p>Double-click <strong>newserver/6667</strong> and change it to read <strong>irc.twitch.tv/6667</strong></p>
 
-<p><br />For streamers who want to Chroma key the chat onto your screen without a background so it goes over games can follow the next part.
-<br />
-<br />First of all Pop-out the chat so you have it in a second window (The settings gear –&gt; Pop-out Chat –&gt; When the chat pops out do the same again –&gt; Settings Gear –&gt; Chroma Key)
-<br />
-<br />When you have opened it and Clicked on the chroma key setting you chat should look something like this:
-<br /></p>
 <figure>
-<a href="/images/customization_guide/bttv_custom_chromakey.jpg"><img src="/images/customization_guide/bttv_custom_chromakey.jpg" /></a>
-</figure>
-<p><br />
-<br />What you then want to do is capture it in your capture program (OBS, XSplit ETC..)
-<br />
-<br />When you have the window selected and your region selected pick black #000000 To be keyed out.
-<br />
-<br />It should look something like this.
-<br /></p>
-<figure>
-<a href="/images/customization_guide/bttv_custom_ingame.jpg"><img src="/images/customization_guide/bttv_custom_ingame.jpg" /></a>
+    <a href="/images/hexchat_guide/edit1.png"><img src="/images/hexchat_guide/edit1.png" /></a>
 </figure>
 
-<p>Write up by <a href="http://twitter.com/GavXD">Gav</a>, Thanks to <a href="http://nightdev.com">NightDev</a> for his amazing Add-on!
-<a href="http://twitch.tv/lirik">Lirik</a> Used as an example for chat screenshots!</p>
+<p>Untick <strong>Use global user information</strong> (if it’s ticked) and enter your Twitch user name in the <strong>Nick name</strong> field and your OAUTH token in the <strong>Password</strong> field and click <strong>OK</strong></p>
+
+<blockquote>
+  <p>Not sure how to get an OAuth token? Check out this <a href="http://twitchapps.com/tmi/">token generator</a> created by <a href="http://www.twitter.com/bgeorge">@bGeorge</a>.</p>
+</blockquote>
+
+<figure>
+    <a href="/images/hexchat_guide/edit2.png"><img src="/images/hexchat_guide/edit2.png" /></a>
+</figure>
+
+<p><em>Note</em> - You may tick <strong>Connect to this network automatically</strong> to join twitch chat automatically when you start HexChat.</p>
+
+<figure>
+    <a href="/images/hexchat_guide/autoconnect.png"><img src="/images/hexchat_guide/autoconnect.png" /></a>
+</figure>
+
+<p>Now close the edit network window, select your newly created network and click <strong>Connect</strong>.</p>
+
+<figure>
+    <a href="/images/hexchat_guide/connect.png"><img src="/images/hexchat_guide/connect.png" /></a>
+</figure>
+
+<h1 id="joining-channels">Joining Channels</h1>
+<p>Standard IRC context applies here as above.  To join a channel simply type <em>/join #channelname</em> in the dialogue box.</p>
+
+<p><br />HexChat can be configured to join channels automatically as well.  To do this simply right click an already joined channel and tick <strong>Autojoin</strong>.</p>
+
+<figure>
+    <a href="/images/hexchat_guide/autojoin.png"><img src="/images/hexchat_guide/autojoin.png" /></a>
+</figure>
+
+<p>Written by <a href="http://www.twitter.com/GUIpsp">@GUIpsp</a> based on the <a href="http://twitchtips.com/kvirc-guide/">KVIRC setup guide</a> by <a href="http://www.twitter.com/Izlsnizzt">@Izlsnizzt</a>.</p>
 
       <hr />
       <footer role="contentinfo">
@@ -303,7 +278,7 @@
 	</div>
 </form>
         </div>
-        <p class="byline"><strong>The BetterTTV Extension</strong> was published on <time datetime="2014-05-01T00:00:00+01:00">May 01, 2014</time> by <a href="http://twitchtips.com/about" title="About Twitch Tips">Twitch Tips</a>.</p>
+        <p class="byline"><strong>HexChat Setup for Twitch Chat</strong> was published on <time datetime="2014-06-20T00:00:00+01:00">June 20, 2014</time> by <a href="http://twitchtips.com/about" title="About Twitch Tips">Twitch Tips</a>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   
@@ -318,15 +293,15 @@
     <ul>
     
       
-        <li><a href="http://twitchtips.com/hexchat-guide/" title="HexChat Setup for Twitch Chat">HexChat Setup for Twitch Chat</a></li>
-      
-    
-      
         <li><a href="http://twitchtips.com/multi-display/" title="Multi-display Broadcasting (OBS Guide)">Multi-display Broadcasting (OBS Guide)</a></li>
       
     
       
         <li><a href="http://twitchtips.com/protecting-yourself/" title="Protecting Yourself Online">Protecting Yourself Online</a></li>
+      
+    
+      
+        <li><a href="http://twitchtips.com/greeter-bots/" title="Greeter Bots">Greeter Bots</a></li>
       
     
     </ul>
