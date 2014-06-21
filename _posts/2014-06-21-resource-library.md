@@ -20,17 +20,7 @@ Sometimes it's a little difficult to find resources, thankfully there exists a c
   
 ##Bots    
 
-*Some people always say "what is the best bot for Twitch" and I can never say just one. Each bot offers different user interfaces and features. My suggestion is to try each one out for a week and make your own decision off what works for you and your stream.*  
-  
-* **Nightbot**: Nightbot is a free and very well developed chat moderation bot that offers custom command, moderation and other cool features for your Twitch.tv chat! - [NightBot's Website](http://www.nightbot.tv/index.php)  
-  
-* **Moobot**: I think this is the official chat moderation bot of Twitch (not sure tho) and offers some interesting features with it. It has a solid user base and can be added with in minutes with a simple setup. - [Moobot's Website](http://twitch.moobot.tv/)  
-  
-* **Xanbot**: Xanbot is a smaller chat moderation bot created by a Twitch Staff Member named Xangold. It has very simple commands and with Xangold behind the helm, it is going to keep growing. - [Xangold's Twitch Channel](http://www.twitch.tv/xangold)  
-  
-* **Deep Bot**: The only bot to have a space in its name and more features then you can wave a Kappa at. Deep Bot is a "all-in-one" bot for your stream that allows you to manage music playing, song requests, loyalty points, title and current game, commands and timed messages - [DeepBot's Website](http://deepbot.deep.sg/)  
-  
-***I know I missed some other bots but please feel free to share them below and why you like them.***  
+For Bots it's recommended to check out the in-depth post on Twitch Chat Moderation Bots which can be [found here](http://twitchtips.com/chat-moderation-bots/)!  
 
 ##Browser Addons
   
