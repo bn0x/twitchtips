@@ -38,6 +38,7 @@ Below is a list of all those who have contributed to the site.
 * [@CBenni_o](https://www.twitter.com/CBenni_o)
 * [@ImSammyTTV](https://twitter.com/ImSammyTTV)
 * [@GUIpsp](https://www.twitter.com/GUIpsp)
+* [@VaughnWhiskey](https://twitter.com/VaughnWhiskey)
 
 ### Got a request?
 
