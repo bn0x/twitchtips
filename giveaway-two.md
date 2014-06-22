@@ -18,7 +18,7 @@ comments: true
 * NoxiusInfernus
 * GUIpsp
 
-Unfortunately we didn't receive enough written contributions to give away 4 Kappa Emote Packs, so we remain with 3 to give away at a future date!
+Unfortunately we didn't receive enough written contributions to give away 4 Kappa Emote Packs, so we remain with 3 to give away at a future date!  
 
 **Twitter Winners**
 
