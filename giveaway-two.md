@@ -5,9 +5,9 @@ title: TwitchTips Giveaway Bonanza!
 modified: 20-6-2014
 comments: true
 ---
-24 hours later and it's time to wrap up our first giveaway, first of all; thank you to everyone that contributed by either tweeting or sending us content (some of you even did both)!
+48 hours later and it's time to wrap up our second giveaway, first of all; thank you to everyone that contributed by either tweeting or sending us content (some of you even did both)!
 
-<br>We've picked 3 winners for the written contributions and have used a random selector for those who tweeted using the #TwitchTips hashtag on Twitter to pick 2 winners.
+<br>We've picked 2 winners for the written contributions and have used a random selector for those who tweeted using the #TwitchTipsGiveawayTwo hashtag on Twitter to pick 6 winners.
 
 <br>(**Note:** If you're not following us on Twitter and you've won, we'll send you a tweet letting you know you've won, you then have 24 hours to follow us back so we can DM you the redeem link for your Kappa Emote Pack - after 24 hours we will randomly select another winner)
 
